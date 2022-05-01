@@ -81,4 +81,10 @@ iframe {
 .avatar {
     width: 80%;
     height: 80%;
+    left: 55%
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
 }
