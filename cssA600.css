@@ -87,3 +87,7 @@ iframe {
     width: 4rem;
     height: 4rem;
 }
+
+a:link{
+    color: transparent;
+}
