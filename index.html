@@ -5,106 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="css600.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 600px)" href="cssA600.css" />
     <title>Zannyboi</title>
-    <style>
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            height: 200vh;
-            overflow-x: hidden;
-        }
-        body::-webkit-scrollbar{
-            width:10px;
-            height:10px;
-            /**/
-        }
-        body::-webkit-scrollbar-track{
-            background: rgb(43, 52, 54);
-            border-radius:2px;
-        }
-        body::-webkit-scrollbar-thumb{
-            background: #1f2226;
-            border-radius:10px;
-        }
-        body::-webkit-scrollbar-thumb:hover{
-            background: #333;
-        }
-        body::-webkit-scrollbar-corner{
-            background: #ffffff;
-        }
 
-        .background {
-            background-image: url("smoke.jpg");
-            background-size: cover;
-            background-position: 50% 50%;
-            height: 200vh;
-            font: 600 16rem '';
-            line-height: 130vh;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            position: relative;
-            text-align: center;
-            overflow: hidden;
-        }
-
-        .background::before {
-            content: '';
-            background-size: cover;
-            background-image: inherit;
-            background-position: 50% 50%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            z-index: -99;
-        }
-
-        h1 {
-            position: absolute;
-            line-height: 15;
-            text-align: center;
-            width: 100%;
-            letter-spacing: 10px;
-            color: #fff;
-        }
-
-        h2 {
-            position: absolute;
-            text-align: center;
-            letter-spacing: 2px;
-            top: 120vh;
-            width: 60%;
-            color: #fff;
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 30px;
-           
-        }
-    </style>
 </head>
 
 <body>
     <h1>Zannyboi</h1>
     <div class="background"><span>ZannyboiBeats</span></div>
     <h2>
-        <img src="avatar.jpg" width="338" height="341">
+        <img class="avatar" src="avatar.jpg">
         <br>
         Zannyboi
         <br><br>
-        <iframe allowtransparency="true" frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=86 src="//music.163.com/outchain/player?type=2&id=1939367157&auto=1&height=66"></iframe>
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" src="//music.163.com/outchain/player?type=2&id=1939367157&auto=1&height=66"></iframe>
         <br><br>
         <a href="https://www.instagram.com/zzaneli/">
-            <img src="instagram.png" filter:invert(100%) width="50" height="50">
+            <img src="instagram.png" width="50" height="50">
         </a>
         &nbsp; &nbsp;
         <a href="https://music.163.com/#/artist?id=33860046">
-            <img src="wangyiyun.png" filter:invert(100%) width="50" height="50">
+            <img src="wangyiyun.png" width="50" height="50">
         </a>
         &nbsp; &nbsp;
         <a href="mailto: zannyboi6666@gmail.com">
-            <img src="email.png" filter:invert(100%) width="50" height="50">
+            <img src="email.png" width="50" height="50">
         </a>
         
     </h2>
